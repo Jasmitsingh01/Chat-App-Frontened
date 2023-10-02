@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import LOGIN from "./Components/LOGIN&SINGUP/LOGIN";
+import { Route, Routes } from "react-router-dom";
+import SINGUP from "./Components/LOGIN&SINGUP/SINGUP";
+import CHATAPP from "./Components/MAINAPP/CHATAPP";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Routes>
+      <Route path="/" element={<LOGIN/>}/>
+      <Route path="/singup" element={<SINGUP/>}/>
+      <Route path="/App" element={<CHATAPP />}/>
+      <Route/>
+    </Routes>
+    </>
   );
 }
 

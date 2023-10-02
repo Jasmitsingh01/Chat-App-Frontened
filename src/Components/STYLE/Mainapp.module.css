@@ -1,0 +1,60 @@
+.Main {
+  border: 2px solid white;
+  width: 50%;
+  margin: auto;
+  color: #fff;
+  margin-top: 20vh;
+}
+.Mainheader {
+  background-color: blueviolet;
+
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  background-color: blueviolet;
+  height: 2.7rem;
+  text-align: center;
+  padding-top: 10px;
+  font-size: x-large;
+  margin-left: 45%;
+}
+.Close{
+  background-color: blueviolet;
+
+  color: #fff;
+}
+.Close a{
+  background-color: blueviolet;
+font-size: large;
+  color: #fff;
+  padding: 5px;
+  padding-top: 0;
+  text-decoration: none;
+}
+.input {
+  padding: 15px;
+  background-color: white;
+  outline: none;
+  font-size: x-large;
+}
+.button {
+  color: white;
+  background-color: rgb(111, 76, 194);
+  border: none;
+  font-size: large;
+  padding: 20px;
+}
+.button:active {
+  opacity: 0.7;
+}
+.msgSend {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+.MsgArea {
+  background-color: white;
+  color: black;
+  height: 50vh;
+  overflow-y: auto;
+}

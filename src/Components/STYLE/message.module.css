@@ -1,0 +1,39 @@
+
+.right {
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  clear: both;
+  margin: 5px;
+  float: right;
+
+  background-color: blueviolet;
+  color: white;
+}
+.info{
+  border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    clear: both;
+    margin: 5px;
+  
+    z-index: -1;
+justify-content: center;
+  
+    background-color: grey;
+    color: white;
+}
+.left {
+  background-color: rgba(51, 219, 51, 0.856);
+
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    clear: both;
+    margin: 5px;
+    float: left;
+    z-index: -1;
+
+  
+    color: white;
+  }

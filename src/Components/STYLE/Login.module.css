@@ -1,0 +1,58 @@
+* {
+  background-color: black;
+}
+.MAIN {
+  display: grid;
+  justify-content: center;
+  padding-top: 5%;
+  color: white;
+}
+
+.LOGOSECTION {
+  width: 40%;
+  margin: auto;
+}
+.LOGOSECTION h1 {
+  text-align: center;
+}
+
+.LOGO {
+  width: 100%;
+  text-align: center;
+}
+.form {
+  display: grid;
+  justify-content: center;
+}
+.label {
+  color: white;
+  font-size: x-large;
+  margin: 10px;
+}
+.input[type="email"] {
+  padding: 10px;
+  font-size: x-large;
+}
+.input[type="password"] {
+  padding: 10px;
+  font-size: x-large;
+}
+.input {
+  background-color: white;
+  border: 2px solid white;
+  outline: none;
+  border-radius: 10px;
+}
+.button {
+  margin-top: 20px;
+  background-color: rgb(111, 76, 194);
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: large;
+  border-radius: 5px;
+}
+.button:active {
+  background-color: rgb(97, 80, 138);
+  opacity: 0.7;
+}
